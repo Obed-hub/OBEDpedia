@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OmniIndex – 400+ Free Tools, Open Software, Guides & 100+ Country Directories</title>
+    <meta name="description" content="Explore 100+ online tools, 100+ authoritative knowledge guides, 100+ free open-source software alternatives, and 100+ country business directories. Built for scale and SEO performance." />
+    
+    <!-- OpenGraph Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="OmniIndex – 400+ Free Tools, Open Software, Guides & 100+ Country Directories" />
+    <meta property="og:description" content="Explore 100+ online tools, 100+ authoritative knowledge guides, 100+ free open-source software alternatives, and 100+ country business directories. Built for scale and SEO performance." />
+    <meta property="og:site_name" content="OmniIndex" />
+    
+    <!-- Twitter Metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="OmniIndex – 400+ Free Tools, Open Software, Guides & 100+ Country Directories" />
+    <meta name="twitter:description" content="Explore 100+ online tools, 100+ authoritative knowledge guides, 100+ free open-source software alternatives, and 100+ country business directories. Built for scale and SEO performance." />
+    
+    <!-- Fonts: Syne (Display) + Plus Jakarta Sans (Body) + JetBrains Mono (Code/Tabular) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org WebSite & Sitelinks SearchBox Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://omniindex.org/#website",
+          "url": "https://omniindex.org/",
+          "name": "OmniIndex",
+          "description": "Global programmatic directory hub indexing 100+ tools, 100+ knowledge bases, 100+ open-source software alternatives, and 100+ country resource directories.",
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://omniindex.org/#organization",
+            "name": "OmniIndex Global Resource Network",
+            "url": "https://omniindex.org"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://omniindex.org/search?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "https://omniindex.org/#collection",
+          "url": "https://omniindex.org/",
+          "name": "OmniIndex Directory Hub",
+          "isPartOf": {
+            "@id": "https://omniindex.org/#website"
+          },
+          "about": [
+            {"@type": "Thing", "name": "Online Utility Tools"},
+            {"@type": "Thing", "name": "Open Source Software"},
+            {"@type": "Thing", "name": "Technical Knowledge Guides"},
+            {"@type": "Thing", "name": "Country Business Directories"}
+          ]
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#090D16] text-slate-100 antialiased selection:bg-cyan-500/30 selection:text-cyan-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

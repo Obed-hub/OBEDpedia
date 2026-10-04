@@ -1,0 +1,7 @@
+{
+  "name": "OmniIndex - High-Authority Directory & 400+ Tools Platform",
+  "description": "Enterprise-grade programmatic directory hosting 100+ tools, 100+ knowledge guides, 100+ free open-source software, and 100+ country directories with schema-optimized SEO architecture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
